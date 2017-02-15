@@ -14,7 +14,6 @@ class Game
       puts question.present(@current_player.name)
       player_answer = gets.chomp
       if question.check_answer(player_answer)
-        # correct answer
         puts "#{@current_player.name} ZOMG No NO NO! Correct!"
       else
         puts "#{@current_player.name} Seriously? No! Wrong!"

@@ -9,12 +9,6 @@ class Player
   attr_accessor :lifes
 
   def alive?
-    # if @lifes == 0
-    #   false
-    # else
-    #   true
-    # end
-
     @lifes > 0
   end
 
